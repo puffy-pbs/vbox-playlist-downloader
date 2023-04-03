@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  downloader:
+    build: .
+    container_name: vbox_playlist_downloader_container
+    volumes:
+      - .:/app
