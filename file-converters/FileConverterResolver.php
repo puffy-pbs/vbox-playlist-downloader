@@ -3,14 +3,11 @@
 final class FileConverterResolver
 {
     /**
-     * Get converter based on parameters
+     * Get converter
      * @return FileConverter
      */
     public static function getConverter(): FileConverter
     {
-        switch (true) {
-            default:
-                return new DashVideoFileConverter();
-        }
+        return new DashVideoFileConverter();
     }
 }

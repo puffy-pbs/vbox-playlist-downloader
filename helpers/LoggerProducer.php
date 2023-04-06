@@ -2,9 +2,12 @@
 
 final class LoggerProducer
 {
+    /**
+     * Get logger
+     * @return Logger
+     */
     public static function create(): Logger
     {
-        // ... some more will come eventually
         return new GenericLogger();
     }
 }
